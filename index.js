@@ -28,6 +28,7 @@ function time(){
     ROI = update(sessionStorage.getItem('inputs'));
     ROI.time = hours.reduce((a,b) => parseInt(a)+parseInt(b),0);
     sessionStorage.setItem("inputs", JSON.stringify(ROI));
+    //Calculation - summing all the hours
     
 }
 //Collecting Money
@@ -74,3 +75,16 @@ function display(){
 
     $('#clientsServed').html(this.ROI.clients);
 }
+
+
+//Slider Functions
+var ratings = document.querySelector('#ratings');
+  ratings.addEventListener('value-change', function() {
+    document.querySelector('#ratingsLabel').textContent = ratings.value;
+  });
+
+  var grade = document.querySelector('#grade');
+  grade.addEventListener('value-change', function() {
+    var label = (grade.value < grade.secondaryProgress) ? "Fail" : "Pass" ;
+    document.querySelector('#gradeLabel').textContent = grade.value + " (" + label + ")";
+  });

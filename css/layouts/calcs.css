@@ -49,7 +49,10 @@ form.form-box div.form-group input.form-control {
 form.form-box button.btn-primary {
   font-size: 1.7rem;
   font-weight: 200;
-  background-color: #00558C;
+  background-color: #104b7d;
+  border-color: whitesmoke;
+  border-radius: 5rem;
+  padding: 0.5rem 1rem;
 }
 
 /*# sourceMappingURL=calcs.css.map */

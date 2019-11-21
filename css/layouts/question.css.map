@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"question.css"}
+{"version":3,"sourceRoot":"","sources":["../../sass/layouts/question.sass","../../sass/abstracts/mfv.sass"],"names":[],"mappings":"AACA;EACI;EACA;EACA;EACA;;AACA;EACI;EACA;;AACJ;EACI;EACA;ECkBJ,kBA3BG;EA4BH;EACA;EACA;;;ADjBJ;EACI","file":"question.css"}

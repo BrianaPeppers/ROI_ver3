@@ -19,6 +19,29 @@ header.main-header h1 {
   padding: 1rem 1.5rem;
 }
 
+div.question-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+}
+div.question-box h1.question {
+  font-size: 1.3rem;
+  flex-basis: 80%;
+}
+div.question-box button.help {
+  flex-basis: 10%;
+  height: 90%;
+  background-color: #104b7d;
+  border-color: whitesmoke;
+  border-radius: 5rem;
+  padding: 0.5rem 1rem;
+}
+
+div.popover-body {
+  font-size: 1.3rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -94,7 +117,10 @@ form.form-box div.form-group input.form-control {
 form.form-box button.btn-primary {
   font-size: 1.7rem;
   font-weight: 200;
-  background-color: #00558C;
+  background-color: #104b7d;
+  border-color: whitesmoke;
+  border-radius: 5rem;
+  padding: 0.5rem 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
