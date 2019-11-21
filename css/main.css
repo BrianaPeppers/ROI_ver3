@@ -17,6 +17,7 @@ header.main-header h1 {
   color: #104b7d;
   font-size: 2.3rem;
   padding: 1rem 1.5rem;
+  font-weight: 700;
 }
 
 div.question-box {
@@ -26,7 +27,7 @@ div.question-box {
   padding: 1rem;
 }
 div.question-box h1.question {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   flex-basis: 80%;
 }
 div.question-box button.help {
@@ -39,7 +40,7 @@ div.question-box button.help {
 }
 
 div.popover-body {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 * {
@@ -90,6 +91,9 @@ div.calc img.ROI-pic {
   width: 100%;
   max-width: 30rem;
   max-height: 25rem;
+}
+div.calc img.ROI-pic:hover {
+  transform: scale(1.1);
 }
 div.calc a.ROI-type, div.calc h2.ROI-type {
   text-align: center;

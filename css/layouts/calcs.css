@@ -23,6 +23,9 @@ div.calc img.ROI-pic {
   max-width: 30rem;
   max-height: 25rem;
 }
+div.calc img.ROI-pic:hover {
+  transform: scale(1.1);
+}
 div.calc a.ROI-type, div.calc h2.ROI-type {
   text-align: center;
   color: #104b7d;

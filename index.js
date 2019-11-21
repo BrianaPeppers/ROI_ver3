@@ -14,6 +14,11 @@ var ROI = {
     clients: 0
 }
 
+//Under Construction
+function windowAlert() {
+    alert("Calculator currently under construction, please check back soon!");
+  }
+
 //Collecting User Info
 function userInfo(){
     ROI.email = $('#email').val();
@@ -88,3 +93,4 @@ var ratings = document.querySelector('#ratings');
     var label = (grade.value < grade.secondaryProgress) ? "Fail" : "Pass" ;
     document.querySelector('#gradeLabel').textContent = grade.value + " (" + label + ")";
   });
+
